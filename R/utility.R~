@@ -1,0 +1,3 @@
+add_1to10 <- function(x){
+   return(x + 1:10)
+}
