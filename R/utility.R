@@ -8,7 +8,9 @@
 #'
 #' @export
 #'
-
+#' @useDynLib myPackage, .registration=TRUE
+#' @importFrom Rcpp sourceCpp
+NULL
 add10 <- function(x) {
    return(x + 1:10)
 }
