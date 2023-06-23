@@ -14,3 +14,7 @@ NULL
 add10 <- function(x) {
    return(x + 1:10)
 }
+
+add20 <- function(x) {
+  return(x + 1:20)
+}
